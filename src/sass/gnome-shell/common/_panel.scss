@@ -6,8 +6,10 @@
   color: $panel-text-secondary;
   font-feature-settings: "tnum";
   transition-duration: 250ms;
+  margin: 5px 50px 5px;
   box-shadow: none;
-  border: none;
+  border: 2px solid $panel-text-secondary;
+  border-radius: 5px;
   @include fontsize($font_size - 1);
 
   @if $float == 'true' {
