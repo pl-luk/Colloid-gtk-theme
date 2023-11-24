@@ -9,7 +9,7 @@
   margin: 5px 50px 5px;
   box-shadow: none;
   border: 2px solid $panel-text-secondary;
-  border-radius: 5px;
+  border-radius: $modal-radius;
   @include fontsize($font_size - 1);
 
   @if $float == 'true' {
@@ -37,7 +37,7 @@
     font-weight: bold;
     color: $panel-text-secondary;
     transition-duration: 150ms;
-    border-radius: $circular_radius;
+    border-radius: $modal-radius;
     text-shadow: none;
 
     @if $float == 'true' {
@@ -52,7 +52,7 @@
 
       .clock {
         transition-duration: 150ms;
-        border-radius: $circular_radius;
+        border-radius: $modal_radius;
 
         @if $float == 'true' {
           border: $base_margin solid transparent;
