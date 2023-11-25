@@ -1,12 +1,12 @@
 /* OSD */
 
 %osd_panel {
-  color: on($osd, secondary);
-  background-color: $osd;
+  color: $panel-text;
+  background-color: $background;
   border: none;
   box-shadow: 0 3px 8px 0 rgba(black, 0.25);
   margin: 5px 8px 11px;
-  border-radius: $menu_radius;
+  border-radius: $modal_radius;
   padding: $base_padding * 2;
 }
 
